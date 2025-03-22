@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/boton_regreso.uss?fileID=7433441132597879392&amp;guid=b2d3b9313889549858f6ffe0438fd3dd&amp;type=3#boton_regreso" />
+    <ui:VisualElement name="Contenedor" class="contenedor" style="flex-grow: 1; justify-content: flex-end;">
+        <ui:Button text="Regresar" name="BotonRegreso" class="boton" style="color: rgb(233, 233, 233); -unity-text-outline-color: rgba(0, 0, 0, 0); background-color: rgba(188, 188, 188, 0);" />
+    </ui:VisualElement>
+</ui:UXML>
