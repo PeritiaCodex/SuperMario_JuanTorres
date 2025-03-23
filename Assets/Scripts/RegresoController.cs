@@ -16,7 +16,7 @@ public class RegresoController : MonoBehaviour
     
     private void Regresar(ClickEvent evt)
     {
-        SceneManager.LoadScene("SceneMenu");
+        SceneManager.LoadScene("EscenaMenu");
     }
 
 }

@@ -1,6 +1,6 @@
 .contenedor {
-    width: 100%;
-    height: 100%;
+    width: 1920%;
+    height: 1080%;
     align-self: center;
     justify-content: center;
     align-items: center;
