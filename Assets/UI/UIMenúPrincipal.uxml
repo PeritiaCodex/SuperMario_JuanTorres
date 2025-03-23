@@ -1,6 +1,6 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/UIMenuPricipal.uss?fileID=7433441132597879392&amp;guid=c49feca3c021d43cfbf148aecc2930a7&amp;type=3#UIMenuPricipal" />
-    <engine:VisualElement name="Contenedor" class="contenedor" style="flex-grow: 1; width: 1920px; height: 1080px;">
+    <engine:VisualElement name="Contenedor" class="contenedor" style="flex-grow: 1; width: 100%; height: 100%;">
         <engine:Label text="Tarea Unity" name="Titulo" class="titulo" style="top: auto; bottom: auto; border-left-width: 550px; border-right-width: 550px;" />
         <engine:GroupBox class="grupobotones">
             <engine:Button text="Jugar" name="Jugar" class="boton" />
