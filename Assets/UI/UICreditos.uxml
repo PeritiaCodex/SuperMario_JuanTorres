@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UICreditos.uss?fileID=7433441132597879392&amp;guid=dc82bad9cfd0140249fbdfa2ac6b6c9f&amp;type=3#UICreditos" />
+    <engine:VisualElement name="RootCredits" class="contenedor" style="flex-grow: 1; justify-content: flex-start; align-self: center; align-items: center;">
+        <engine:VisualElement name="CreditsContainer" class="credits-container" style="flex-grow: 1; position: absolute; width: 100%;">
+            <engine:Label text="Créditos" name="Titulo" class="titulo" style="-unity-text-align: upper-center;" />
+            <engine:Label text="Párrafo 1&#10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus ex ut enim gravida ornare. Etiam interdum metus vel nunc dignissim, nec porttitor leo accumsan. Morbi aliquam metus nec purus fermentum, at sollicitudin lorem hendrerit. Fusce luctus, arcu vel feugiat lacinia, nisi purus pulvinar dolor, nec ullamcorper felis nisi in ligula.&#10;&#10;Párrafo 2&#10;Vivamus imperdiet porta mi ac cursus. Suspendisse eget tortor ac nulla ultricies blandit. In consequat ipsum in mi finibus laoreet. Nullam vel urna non mauris tristique hendrerit. Sed euismod luctus nisi, eu efficitur ante porta ac. Nunc finibus tincidunt leo quis laoreet. Phasellus a lorem vitae elit dictum lacinia.&#10;&#10;Párrafo 3&#10;Curabitur a posuere orci. Quisque eu augue leo. Etiam imperdiet cursus sapien, vitae pretium metus imperdiet in. Curabitur mattis leo ac elementum bibendum. Integer sed porta ex. Duis vel velit fermentum, pellentesque enim a, venenatis lorem. Donec dictum lorem eu ante luctus, ut luctus velit tincidunt." name="Creditos" class="creditos" style="-unity-text-align: upper-center; background-color: rgba(29, 29, 29, 0.65); border-bottom-width: 100px; top: 250px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:Button name="BotonRegreso" class="boton" />
+</engine:UXML>
